@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 def main():
-    dataset = pd.read_csv('https://www.kaggle.com/datasets/damianogalassi/bike-sharing-datasets/download?datasetVersionNumber=1')
+    dataset = pd.read_csv('https://github.com/SamHuang1018/Bike-Sharing-from-UCI-datasets/raw/main/day.csv')
     print(dataset.info())
 
 if __name__ == '__main__':
