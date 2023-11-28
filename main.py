@@ -14,7 +14,7 @@ def pp_dataset(ds: pd.DataFrame):
 
 def main():
     dataset = pd.read_csv('https://github.com/SamHuang1018/Bike-Sharing-from-UCI-datasets/raw/main/day.csv')
-    pp_dataset2(dataset)
+    pp_dataset(dataset)
 
 if __name__ == '__main__':
     main()
